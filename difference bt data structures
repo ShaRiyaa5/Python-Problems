@@ -1,0 +1,36 @@
+List
+~ placed inside []
+~ ordered
+~ duplicates are allowed
+~ mutable (elements can be added / removed / changed)
+~ index values can be used
+~ used to store dynamic collection of items
+~ eg: shopping cart
+
+Tuples
+~ placed inside ()
+~ ordered
+~ duplicates are allowed
+~ immutable (elements cannot be changed)
+~ index values can be used
+~ used to store fixed datas like aadhar pan and so on
+~ eg: aadhar num, pan num, passport
+
+Set
+~ placed inside {}
+~ unordered - returns an op using its hash values and doesn't follow order
+~ duplicates are not allowed, only unique values
+~ mutable (elements can be added / removed)
+~ index values cannot be used
+~ supports union intersection and so on
+~ eg: girls closet 😅
+
+Dictionary
+~ placed inside {key:value} stores as key value pairs
+~ ordered
+~ duplicates are not allowed in keys and allowed in values
+~ mutable (key:value pairs can be added / removed)
+~ index values cannot be used instead we can keys
+~ used for mapping
+~ eg: user details
+
