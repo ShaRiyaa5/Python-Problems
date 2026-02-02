@@ -42,7 +42,7 @@ order = FoodOrder()
 #"You want to add items" == "Yes":
 while True:
     items = input("Enter the list of items need to be ordered (Enter done if finished) = ")
-    if items == "done":
+    if items.lower() == "done":
         break
     order.add_items(items)
 order.total()
@@ -93,4 +93,5 @@ obj.like()
 obj.like()
 obj.watch()
 obj.like()
+
 obj.details()
